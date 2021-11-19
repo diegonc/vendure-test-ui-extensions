@@ -1,4 +1,5 @@
 node_modules
 dist
 static/assets
-static/email/test-emails
+static/email/test-email
+src/admin-ui
