@@ -71,6 +71,9 @@ export const config: VendureConfig = {
         AdminUiPlugin.init({
             route: 'admin',
             port: 3002,
+            app: {
+              path: path.resolve(__dirname, 'admin-ui/dist'),
+            },
         }),
     ],
 };
